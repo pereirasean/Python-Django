@@ -29,9 +29,9 @@
   
   <li> To view all the API list, put this endpoint in the browser: http://127.0.0.1:8000/api/ </li>
   
-  <li> To view all the profile's created, put this endpoint in the browser: http://127.0.0.1:8000/api/register/ </li>
+  <li> To view all the profile's created, put this endpoint in the browser: http://127.0.0.1:8000/api/profile/ </li>
   
-  <li> To edit information like the following details mentioned below, but the following endpoint http://127.0.0.1:8000/api/register/1/ '1' indicates the id of that user </li>
+  <li> To edit information like the following details mentioned below, but the following endpoint http://127.0.0.1:8000/api/profile/1/ '1' indicates the id of that user </li>
          <ul>
             <li> Email </li>
             <li> Name  </li>
@@ -60,7 +60,7 @@
   
   <li> To log-out, use the following endpoint: http://127.0.0.1:8000/admin/logout/ and uncheck the token in the MoD header. </li>
   
-  <li> Now, if the user wants to edit their profile by logging in and going to their profile section, e.g., http://127.0.0.1:8000/api/register/1/, they will not be able to edit their profile they do not have authorization or the required token enables. </li>
+  <li> Now, if the user wants to edit their profile by logging in and going to their profile section, e.g., http://127.0.0.1:8000/api/profile/1/, they will not be able to edit their profile they do not have authorization or the required token enables. </li>
       
  ## preview after turning off token authorization in Modheader
    ![Disable_user_edit](Disabling_user_edit.PNG)
